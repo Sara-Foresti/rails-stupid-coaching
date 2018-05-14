@@ -1,0 +1,13 @@
+<div class="text-center" id="answers">
+  <h2>Questions and Answers</h2>
+  <!-- <p>Find me in app/views/questions/answer.html.erb</p> -->
+  <!-- display the question and the answers to the user -->
+  <%= params[:question] %>
+  <p>- <em>You</em></p>
+
+  <%= @answer %>
+  <p>- <em>Your Coach</em></p>
+
+  <!-- Add a link to /ask on the answer.html.erb view using the link_to Rails helper -->
+  <%= link_to "Ask a new question", "ask.html", class: "btn btn-primary" %>
+</div>

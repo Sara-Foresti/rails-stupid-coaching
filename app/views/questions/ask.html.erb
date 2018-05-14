@@ -1,0 +1,11 @@
+<div class="text-center" id="ask">
+  <h2>Ask a question to your Coach</h2>
+  <!-- <p>Find me in app/views/questions/ask.html.erb</p> -->
+  <!-- form for asking a question to the coach -->
+  <!-- action specifies the URL that will be used when submitting the form name -->
+  <!-- your form send a request to QuestionsController#answer with a good parameter name -->
+  <form action="/answer">
+    <input type="text" name="question" method="get" placeholder="Your question here">
+    <input type="submit" value="Ask!" class="btn btn-primary">
+  </form>
+</div>
